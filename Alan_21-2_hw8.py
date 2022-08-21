@@ -26,8 +26,7 @@ while True:
             hundred = current - 1
         else:
             print('Вводите только <,> и «да»')
-af = ['sf', 'sdg', 'gsg']
-print(len(af)-1)
+
 
 
 
