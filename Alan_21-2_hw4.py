@@ -126,11 +126,11 @@ class Deku(Hero):
         a = [0.2, 0.5, 2]
         choice_a = choice(a)
         boss.health -= self.damage + self.damage * choice_a
-        if choice_a == a[-1]:
+        if choice_a == a[0]:
             self.health -= self.damage * 0.2
         elif choice_a == a[1]:
             self.health -= self.damage * 0.5
-        elif choice_a == a[2]:
+        elif choice_a == a[-1]:
             self.health -= self.damage * 2
         print(f'super punch: {self.damage + self.damage * choice_a}')
 
